@@ -96,7 +96,9 @@ function SignIn() {
           Sign Up Instead
         </Link>
   <div className='signInBar'>
-            <p className='signInText'>Sign In</p>
+            <Link to='/sign-up' className='registerLink'>
+          Sign Up Instead
+        </Link>
             <button className='signInButton'>
               <ArrowRightIcon fill='#ffffff' width='34px' height='34px' />
             </button>
