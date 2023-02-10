@@ -116,11 +116,12 @@ function SignUp() {
         </form>
 
         <OAuth />
-<div>
-        <Link to='/sign-in' className='registerLink'>
-          Sign In Instead
+ <div className='signInBar'>
+            <Link to='/sign-up' className='registerLink'>
+          Sign Up Instead
         </Link>
-</div>
+           
+          </div>
       </div>
     </>
   )
